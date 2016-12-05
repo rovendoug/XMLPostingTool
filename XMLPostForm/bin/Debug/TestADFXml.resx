@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TestAdfXml1" xml:space="preserve">
+    <value>&lt;?ADF VERSION "1.0"?&gt;
+&lt;?XML VERSION "1.0"?&gt;
+&lt;adf&gt;
+    &lt;prospect&gt;
+        &lt;requestdate&gt;2000-03-30T15:30:20-08:00&lt;/requestdate&gt;
+        &lt;vehicle interest="buy" status="used"&gt;
+            &lt;year&gt;1999&lt;/year&gt;
+            &lt;make&gt;Chevrolet&lt;/make&gt;
+            &lt;model&gt;Blazer&lt;/model&gt;
+            &lt;vin&gt;2GTEK19R7V1511644&lt;/vin&gt;
+            &lt;stock&gt;P7286&lt;/stock&gt;
+            &lt;trim&gt;LT&lt;/trim&gt;
+            &lt;doors&gt;4&lt;/doors&gt;
+            &lt;bodystyle&gt;SUV&lt;/bodystyle&gt;
+            &lt;transmission&gt;A&lt;/transmission&gt;
+            &lt;odometer status="replaced" units="miles"&gt;90000&lt;/odometer&gt;
+            &lt;colorcombination&gt;
+                &lt;interiorcolor&gt;lush brown&lt;/interiorcolor&gt;
+                &lt;exteriorcolor&gt;emerald green&lt;/exteriorcolor&gt;
+                &lt;preference&gt;2&lt;/preference&gt;
+            &lt;/colorcombination&gt;
+            &lt;colorcombination&gt;
+                &lt;interiorcolor&gt;gray&lt;/interiorcolor&gt;
+                &lt;exteriorcolor&gt;cobalt blue&lt;/exteriorcolor&gt;
+                &lt;preference&gt;1&lt;/preference&gt;
+            &lt;/colorcombination&gt;
+            &lt;price type="quote" currency="USD"&gt;26995&lt;/price&gt;
+            &lt;option&gt;
+                &lt;optionname&gt;Sport&lt;/optionname&gt;
+                &lt;manufacturercode&gt;p394&lt;/manufacturercode&gt;
+                &lt;weighting&gt;65&lt;/weighting&gt;
+            &lt;/option&gt;
+            &lt;option&gt;
+                &lt;optionname&gt;Keyless Entry&lt;/optionname&gt;
+                &lt;manufacturercode&gt;p395&lt;/manufacturercode&gt;
+                &lt;weighting&gt;100&lt;/weighting&gt;
+            &lt;/option&gt;
+            &lt;finance&gt;
+                &lt;method&gt;Finance&lt;/method&gt;
+                &lt;amount type="downpayment" currency="USD"&gt;5000&lt;/amount&gt;
+                &lt;amount type="monthly" currency="USD"&gt;1000&lt;/amount&gt;
+                &lt;amount type="total currency="USD"&gt;50000&lt;/amount&gt;
+                &lt;balance type="residual" currency="USD"&gt;2000&lt;/balance&gt;
+            &lt;/finance&gt;
+            &lt;comments&gt;keyless entry essential&lt;/comments&gt;
+        &lt;/vehicle&gt;
+        &lt;customer&gt;
+            &lt;contact&gt;
+                &lt;name part="first"&gt;John&lt;/name&gt;
+                &lt;name part="last"&gt;Doe&lt;/name&gt;
+                &lt;email&gt;jdoe@hotmail.com&lt;/email&gt;
+                &lt;phone type="voice" time="morning"&gt;393-999-3922&lt;/phone&gt;
+                &lt;phone type="voice" time="evening" besttime="1"&gt;393-991-2999
+                &lt;/phone&gt;
+                &lt;phone type="fax" time="evening"&gt;393-991-2999&lt;/phone&gt;
+                &lt;address type="home"&gt;
+                    &lt;street line="1"&gt;10 first avenue&lt;/street&gt;
+                    &lt;apartment&gt;G-17&lt;/apartment&gt;
+                    &lt;city&gt;Spokane&lt;/city&gt;
+                    &lt;regioncode&gt;WA&lt;/regioncode&gt;
+                    &lt;postalcode&gt;98002-3903&lt;/postalcode&gt;
+                    &lt;country&gt;US&lt;/country&gt;
+                &lt;/address&gt;
+            &lt;/contact&gt;
+            &lt;timeframe&gt;
+                &lt;description&gt;Within 1 month&lt;/description&gt;
+            &lt;/timeframe&gt;
+            &lt;comments&gt;Can you deliver my new car by next Thursday?
+            &lt;/comments&gt;
+        &lt;/customer&gt;
+        &lt;vendor&gt;
+            &lt;vendorname&gt;Koons Internet Outlet&lt;/vendorname&gt;
+            &lt;contact primarycontact="1"&gt;
+                &lt;name part="full"&gt;Jane Smith&lt;/name&gt;
+                &lt;email&gt;jsmith@koons.com&lt;/email&gt;
+                &lt;phone type="voice" time="evening"&gt;333-999-2222
+                &lt;/phone&gt;
+                &lt;phone type="fax" time="evening"&gt;393-991-2999&lt;/phone&gt;
+                &lt;address&gt;
+                    &lt;street line="1"&gt;10 First Avenue&lt;/street&gt;
+                    &lt;street line="2"&gt;Third Floor&lt;/street&gt;
+                    &lt;city&gt;Spokane&lt;/city&gt;
+                    &lt;regioncode&gt;WA&lt;/regioncode&gt;
+                    &lt;postalcode&gt;98002-3903&lt;/postalcode&gt;
+                    &lt;country&gt;US&lt;/country&gt;
+                    &lt;url&gt;http://www.koons.com&lt;/url&gt;
+                &lt;/address&gt;
+            &lt;/contact&gt;
+        &lt;/vendor&gt;
+        &lt;provider&gt;
+            &lt;name part="full"&gt;CarPoint&lt;/name&gt;
+            &lt;service&gt;Used Car Classifieds&lt;/service&gt;
+            &lt;url&gt;http://carpoint.msn.com&lt;/url&gt;
+            &lt;email&gt;carcomm@carpoint.com&lt;/email&gt;
+            &lt;phone&gt;425-555-1212&lt;/phone&gt;
+            &lt;contact primarycontact="1"&gt;
+                &lt;name part="full"&gt;Fred Jones&lt;/name&gt;
+                &lt;email&gt;support@carpoint.com&lt;/email&gt;
+                &lt;phone type="voice" time="day"&gt;425-253-2222&lt;/phone&gt;
+                &lt;phone type="fax" time="day"&gt;393-991-2999&lt;/phone&gt;
+                &lt;address&gt;
+                    &lt;street line="1"&gt;One Microsoft Way&lt;/street&gt;
+                    &lt;street line="2"&gt;Building 8&lt;/street&gt;
+                    &lt;city&gt;Redmond&lt;/city&gt;
+                    &lt;regioncode&gt;WA&lt;/regioncode&gt;
+                    &lt;postalcode&gt;98052&lt;/postalcode&gt;
+                    &lt;country&gt;US&lt;/country&gt;
+                &lt;/address&gt;
+            &lt;/contact&gt;
+        &lt;/provider&gt;
+    &lt;/prospect&gt;
+&lt;/adf&gt;</value>
+    <comment>Test ADF Lead</comment>
+  </data>
+</root>
