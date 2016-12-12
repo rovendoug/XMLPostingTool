@@ -62,7 +62,6 @@ namespace XMLPostForm {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?ADF VERSION &quot;1.0&quot;?&gt;
-        ///&lt;?XML VERSION &quot;1.0&quot;?&gt;
         ///&lt;adf&gt;
         ///    &lt;prospect&gt;
         ///        &lt;requestdate&gt;2000-03-30T15:30:20-08:00&lt;/requestdate&gt;
@@ -76,7 +75,7 @@ namespace XMLPostForm {
         ///            &lt;doors&gt;4&lt;/doors&gt;
         ///            &lt;bodystyle&gt;SUV&lt;/bodystyle&gt;
         ///            &lt;transmission&gt;A&lt;/transmission&gt;
-        ///             [rest of string was truncated]&quot;;.
+        ///            &lt;odometer status=&quot;repla [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string TestAdfXml1 {
             get {

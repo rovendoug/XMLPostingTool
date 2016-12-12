@@ -106,7 +106,7 @@ namespace XMLPostForm {
 
         public List<ListViewItem> PopulatePOSTUrl() {
             List<ListViewItem> lstPOSTUrl = new List<ListViewItem>();
-            lstPOSTUrl.Add(new ListViewItem("http://kohdevelopment.com/ADFXMLVerification"));
+            lstPOSTUrl.Add(new ListViewItem("http://adftesting.kohdevelopment.com:8080"));
             return lstPOSTUrl;
         }
     }
